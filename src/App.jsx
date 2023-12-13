@@ -68,7 +68,7 @@ const handleSubmitPlayers = (event) => {
     
     jugadores.forEach((jugador) => {
       ranking1 = ranking1 + jugador.rank;  
-      if (ranking1 >= 9.5 && updatedTeam1.length < 5) {
+      if (ranking1 >= 16 && updatedTeam1.length < 5) {
         updatedTeam1.push(jugador);
         return jugador; // Return the player object for updatedTeam2
       } else {
