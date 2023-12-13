@@ -148,7 +148,7 @@ const handleSubmitPlayers = (event) => {
       <br />
 
       <div className="w-full flex flex-col gap-4 justify-center items-center">
-        <div className="w-full flex gap-4">
+        <div className="w-full flex gap-4 justify-center">
           <button className=" w-48" onClick={shuffleTeams}>
             Shufflear equipos
           </button>
