@@ -1,0 +1,39 @@
+#root {  
+  width: 100%;
+  text-align: center;  
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.cancha {
+  background: url(../src/assets/cancha1.jpg); 
+  background-position: center;
+  background-size: cover;
+}
+
+.tran {
+  background-image: url(../src/assets/tran.jpg);  
+  background-size: 100%;
+  background-attachment: fixed;
+}
